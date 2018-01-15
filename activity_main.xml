@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sparks"
+    tools:context="com.example.adroid.happybirthday.MainActivity">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:paddingTop="20dp"
+        android:text="Best Wishes Joasiu"
+        android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <ImageView
+            tools:ignore="contentDescription"
+            android:id="@+id/img1"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pic1small"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+        />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:text="Summer 2012"
+            android:layout_toRightOf="@id/img1"
+            />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="8dp"
+            android:text="That was the best day of this summer. "
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/text1"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            tools:ignore="contentDescription"
+            android:id="@+id/img2"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pic2small"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:text="Summer 2015"
+            android:layout_toRightOf="@id/img2"
+            />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:paddingTop="8dp"
+            android:text="This place has a special place in my heart"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text3"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10sp"
+        android:text="Thank you for being there when I needed you. You are the best friend I ever had and I hope it will remain like this forever."
+        />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:layout_below="@id/text5"
+        android:text="See you soon! :*"
+        android:paddingRight="20sp"
+        android:layout_alignParentRight="true"
+        />
+    </RelativeLayout>
+</LinearLayout>
